@@ -1,0 +1,21 @@
+.limiter{
+    margin-left: 150px;
+    margin-top: 170px;
+}
+
+button{
+    position: absolute;
+   height: 40px;
+   width: 150px;
+    margin-left: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background: red;
+}
+

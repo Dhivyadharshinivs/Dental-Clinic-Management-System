@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: #181b3a;
+  --secondary-color: #01d293;
+  --body-bg: white;
+  --card-01-bg: linear-gradient(#ef621c, #e1424e);
+  --card-02-bg: linear-gradient(#01d293, #56c57a);
+  --card-03-bg: #725cff;
+  --card-04-bg: #2884ff;
+  --heading-color: #fff;
+  --small-text-color: #808191;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--body-bg);
+  
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.main__layout {
+  margin-left: 360px;
+}
+
+
+.dashboard {
+    margin-top: 50px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+  }
+  
+  .single__card {
+    padding: 20px;
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70px;
+  }
+  
+  .single__card:nth-child(1) {
+    background: var(--card-01-bg);
+  }
+  
+  .single__card:nth-child(2) {
+    background: var(--card-02-bg);
+  }
+  
+  .single__card:nth-child(3) {
+    background: var(--card-03-bg);
+  }
+  
+  .single__card:nth-child(4) {
+    background: var(--card-04-bg);
+  }
+  
+  .card__content h4 {
+    color: var(--heading-color);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  .card__content span {
+    color: var(--heading-color);
+    font-size: 2rem;
+  }
+  
+  .card__icon {
+    font-size: 2rem;
+    font-weight: 400 !important;
+    color: rgba(255, 255, 255, 0.845);
+  }
+  
+  .dashboard__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
+  
+  .statics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .stats {
+    background: var(--primary-color);
+    padding: 30px;
+    border-radius: 5px;
+    height: 320px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+  }
+  
+  .tooltip__style {
+    background: var(--body-bg) !important;
+    color: #fff;
+  }
+  
+  .stats__title {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  
